@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "CD_Tarea2",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"teclas.h": "c"
+		}
+	}
+}
