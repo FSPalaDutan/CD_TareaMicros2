@@ -1,8 +1,10 @@
 # CD_TareaMicros2
-
+## Integrantes:
+### Lourdes Gutiérrez
+### Felipe Palaguachi
 
 ## La carpeta "CD_Tarea2" contiene los archivos necesarios para correr el programa correspondiente al punto 1 de la Tarea 2, desde el software Visual Code Studio. 
-### En este punto se implementa una MEF que resuelve el antirrebote por software con dos funciones asociadas, una para inicializar la MEF (initButton) y otra para actualizar el estado de la MEF (actualizarMEF).
+#### En este punto se implementa una MEF que resuelve el antirrebote por software con dos funciones asociadas, una para inicializar la MEF (initButton) y otra para actualizar el estado de la MEF (actualizarMEF).
 #### Los estados de la MEF son los siguientes: UP, DOWN, BOUNCE. Entonces, cuando se encuentra en el estado UP, si se presiona el botón, cambia al estado DOWN. Luego, cuando se encuentra en el estado DOWN, si se libera el botón, cambia al estado DOWN; pero, si no se ha liberado el botón, cambia al estado BOUNCE si verifica que se ha producido un rebote, con los tiempos. Ahora, si están en el estado BOUNCE, y si se libera el botón, cambia al estado UP.
 #### Finalmente, con la función buttonPressed se indica qué tecla se presionó. Así mismo, con la función buttonReleased se indica qué tecla se liberó. 
 #### La carpeta contiene los siguientes archivos:
@@ -11,7 +13,7 @@
 ##### -teclas.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías.
 #### Los pines que se deben conectar son los siguientes:
 ##### -Boton 1: pin 5
-
+#
 
 
 ## La carpeta "TAREA2_2" contiene los archivos necesarios para correr el programa correspondiente al punto 2 de la Tarea 2, desde el software Visual Code Studio.
@@ -25,7 +27,7 @@
 #### Los pines que se deben conectar son los siguientes:
 ##### -Boton 1: pin 5
 ##### -Boton 2: pin 6
-
+#
 
 
 ## La carpeta "Tarea2_semaforo" contiene los archivos necesarios para correr el programa correspondiente al punto 3 de la Tarea 2, desde el software Visual Code Studio.
@@ -47,7 +49,7 @@
 ##### -Led Verde: pin 4
 ##### -Led Amarillo: pin 3
 ##### -Led Rojo: pin 2
-
+#
 
 
 ## La carpeta "Tarea2_uart" contiene los archivos necesarios para correr el programa correspondiente al punto 4 de la Tarea 2, desde el software Visual Code Studio.
@@ -66,3 +68,4 @@
 ##### -Led Verde: pin 2
 ##### -Led Amarillo: pin 3
 ##### -Led Rojo: pin 4
+#
