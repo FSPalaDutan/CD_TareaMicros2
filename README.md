@@ -45,9 +45,9 @@
 #
 ## La carpeta "Tarea2_semaforo" contiene los archivos necesarios para correr el programa correspondiente al punto 3 de la Tarea 2, desde el software Visual Code Studio.
 #### En este punto, el semáforo tiene los siguientes modos de operación: 
-##### -Normal:Secuencia de leds: verde 3 s, verde y amarillo 500 ms, rojo 2 s, verde nuevamente....
-##### -Desconectado: Led amarillo intermitente cada 500 ms.
-##### -Alarma: Led rojo intermitente cada 1 s.
+    -Normal:Secuencia de leds: verde 3 s, verde y amarillo 500 ms, rojo 2 s, verde nuevamente....
+    -Desconectado: Led amarillo intermitente cada 500 ms.
+    -Alarma: Led rojo intermitente cada 1 s.
 #### Luego, el botón 1 cambia la base de tiempo de la condición de operación normal (0.5x, 1x, 2x). También, el botón 2 cambia el modo de operación del semáforo a normal. Entonces, cada vez que se libera el botón, cambia el modo en el siguiente orden: normal, desconectado, alarma, normal, etc.
 #### En cuanto a la máquina de estados de los botones, se usa la misma que se encuentra en el punto 2 de la Tarea 2.
 #### La carpeta contiene los siguientes archivos:
