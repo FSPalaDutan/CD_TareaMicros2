@@ -1,7 +1,9 @@
 # CD_TareaMicros2
-### Integrantes:
-#### Lourdes Gutiérrez
-#### Felipe Palaguachi
+# Integrantes:
+## Lourdes Gutiérrez
+## Felipe Palaguachi
+###
+###
 ###
 ###
 ## La carpeta "CD_Tarea2" contiene los archivos necesarios para correr el programa correspondiente al punto 1 de la Tarea 2, desde el software Visual Code Studio. 
@@ -18,6 +20,7 @@
 ###
 ###
 ###
+###
 ## La carpeta "TAREA2_2" contiene los archivos necesarios para correr el programa correspondiente al punto 2 de la Tarea 2, desde el software Visual Code Studio.
 #### En este punto se implementa una única MEF que permite controlar las dos teclas de forma independiente. Entonces, la función de actualización de la MEF recibe como argumento una estructura con los campos: numero de tecla, delay no bloqueante, estado de la MEF.
 #### En este contexto, se han definido las variables globales dataTecla1 y dataTecla2 para los dos botones.
@@ -30,6 +33,7 @@
 ##### -Boton 1: pin 5
 ##### -Boton 2: pin 6
 #
+###
 ###
 ###
 ###
@@ -53,6 +57,7 @@
 ##### -Led Amarillo: pin 3
 ##### -Led Rojo: pin 2
 #
+###
 ###
 ###
 ###
