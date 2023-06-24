@@ -1,7 +1,8 @@
 # CD_TareaMicros2
-## Integrantes:
-## Lourdes Gutiérrez
-## Felipe Palaguachi
+    Integrantes:
+        Lourdes Gutiérrez
+        Felipe Palaguachi
+### 
 ###
 ###
 ###
