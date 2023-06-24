@@ -1,7 +1,7 @@
 # CD_TareaMicros2
-    Integrantes:
-        Lourdes Gutiérrez
-        Felipe Palaguachi
+### Integrantes:
+### Lourdes Gutiérrez
+### Felipe Palaguachi
 ### 
 ###
 ###
@@ -13,11 +13,12 @@
 #### Los estados de la MEF son los siguientes: UP, DOWN, BOUNCE. Entonces, cuando se encuentra en el estado UP, si se presiona el botón, cambia al estado DOWN. Luego, cuando se encuentra en el estado DOWN, si se libera el botón, cambia al estado DOWN; pero, si no se ha liberado el botón, cambia al estado BOUNCE si verifica que se ha producido un rebote, con los tiempos. Ahora, si están en el estado BOUNCE, y si se libera el botón, cambia al estado UP.
 #### Finalmente, con la función buttonPressed se indica qué tecla se presionó. Así mismo, con la función buttonReleased se indica qué tecla se liberó. 
 #### La carpeta contiene los siguientes archivos:
-##### -main.ino: Necesario para comprobar el funcionamiento en Arduino.
-##### -teclas.cpp: Aquí se encuentran las funciones asociadas a la MEF del botón.
-##### -teclas.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías.
+    -main.ino: Necesario para comprobar el funcionamiento en Arduino.
+    -teclas.cpp: Aquí se encuentran las funciones asociadas a la MEF del botón.
+    -teclas.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías.
 #### Los pines que se deben conectar son los siguientes:
-##### -Boton 1: pin 5
+    -Boton 1: pin 5
+####
 #
 ###
 ###
