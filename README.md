@@ -1,11 +1,12 @@
 # CD_TareaMicros2
-# Integrantes:
+## Integrantes:
 ## Lourdes Gutiérrez
 ## Felipe Palaguachi
 ###
 ###
 ###
 ###
+#
 ## La carpeta "CD_Tarea2" contiene los archivos necesarios para correr el programa correspondiente al punto 1 de la Tarea 2, desde el software Visual Code Studio. 
 #### En este punto se implementa una MEF que resuelve el antirrebote por software con dos funciones asociadas, una para inicializar la MEF (initButton) y otra para actualizar el estado de la MEF (actualizarMEF).
 #### Los estados de la MEF son los siguientes: UP, DOWN, BOUNCE. Entonces, cuando se encuentra en el estado UP, si se presiona el botón, cambia al estado DOWN. Luego, cuando se encuentra en el estado DOWN, si se libera el botón, cambia al estado DOWN; pero, si no se ha liberado el botón, cambia al estado BOUNCE si verifica que se ha producido un rebote, con los tiempos. Ahora, si están en el estado BOUNCE, y si se libera el botón, cambia al estado UP.
@@ -21,6 +22,7 @@
 ###
 ###
 ###
+#
 ## La carpeta "TAREA2_2" contiene los archivos necesarios para correr el programa correspondiente al punto 2 de la Tarea 2, desde el software Visual Code Studio.
 #### En este punto se implementa una única MEF que permite controlar las dos teclas de forma independiente. Entonces, la función de actualización de la MEF recibe como argumento una estructura con los campos: numero de tecla, delay no bloqueante, estado de la MEF.
 #### En este contexto, se han definido las variables globales dataTecla1 y dataTecla2 para los dos botones.
@@ -37,6 +39,7 @@
 ###
 ###
 ###
+#
 ## La carpeta "Tarea2_semaforo" contiene los archivos necesarios para correr el programa correspondiente al punto 3 de la Tarea 2, desde el software Visual Code Studio.
 #### En este punto, el semáforo tiene los siguientes modos de operación: 
 ##### -Normal:Secuencia de leds: verde 3 s, verde y amarillo 500 ms, rojo 2 s, verde nuevamente....
@@ -61,6 +64,7 @@
 ###
 ###
 ###
+#
 ## La carpeta "Tarea2_uart" contiene los archivos necesarios para correr el programa correspondiente al punto 4 de la Tarea 2, desde el software Visual Code Studio.
 #### En este punto, se implenta una función que imprime los cambios en la MEF antirrebote (qué tecla y en qué estado está la MEF), y los cambios en la MEF del controlador de semáforos (modo de funcionamiento). 
 #### La carpeta contiene los siguientes archivos:
