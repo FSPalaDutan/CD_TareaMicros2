@@ -30,12 +30,13 @@
 #### En este contexto, se han definido las variables globales dataTecla1 y dataTecla2 para los dos botones.
 #### En cuanto a la máquina de estados, se recibe el argumento dataTecla, que engloba a ambas teclas.
 #### La carpeta contiene los siguientes archivos:
-##### -main.ino: Necesario para comprobar el funcionamiento en Arduino.
-##### -teclas.cpp: Aquí se encuentran las funciones asociadas a la MEF del botón. (Funciones)
-##### -teclas.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías. (Prototipo de Funciones)
+    -main.ino: Necesario para comprobar el funcionamiento en Arduino.
+    -teclas.cpp: Aquí se encuentran las funciones asociadas a la MEF del botón. (Funciones)
+    -teclas.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías. (Prototipo de Funciones)
 #### Los pines que se deben conectar son los siguientes:
-##### -Boton 1: pin 5
-##### -Boton 2: pin 6
+    -Boton 1: pin 5
+    -Boton 2: pin 6
+####
 #
 ###
 ###
@@ -50,17 +51,18 @@
 #### Luego, el botón 1 cambia la base de tiempo de la condición de operación normal (0.5x, 1x, 2x). También, el botón 2 cambia el modo de operación del semáforo a normal. Entonces, cada vez que se libera el botón, cambia el modo en el siguiente orden: normal, desconectado, alarma, normal, etc.
 #### En cuanto a la máquina de estados de los botones, se usa la misma que se encuentra en el punto 2 de la Tarea 2.
 #### La carpeta contiene los siguientes archivos:
-##### -main.ino: Necesario para comprobar el funcionamiento en Arduino.
-##### -teclas.cpp: Aquí se encuentran las funciones asociadas a la MEF del botón. (Funciones)
-##### -teclas.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías. (Prototipo de Funciones)
-##### -semaforo.cpp: Aquí se encuentran las funciones asociadas a la MEF del semáforo. (Funciones)
-##### -semaforo.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías. (Prototipo de Funciones)
+    -main.ino: Necesario para comprobar el funcionamiento en Arduino.
+    -teclas.cpp: Aquí se encuentran las funciones asociadas a la MEF del botón. (Funciones)
+    -teclas.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías. (Prototipo de Funciones)
+    -semaforo.cpp: Aquí se encuentran las funciones asociadas a la MEF del semáforo. (Funciones)
+    -semaforo.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías. (Prototipo de Funciones)
 #### Los pines que se deben conectar son los siguientes:
-##### -Boton 1: pin 5
-##### -Boton 2: pin 6
-##### -Led Verde: pin 4
-##### -Led Amarillo: pin 3
-##### -Led Rojo: pin 2
+    -Boton 1: pin 5
+    -Boton 2: pin 6
+    -Led Verde: pin 4
+    -Led Amarillo: pin 3
+    -Led Rojo: pin 2
+####
 #
 ###
 ###
@@ -70,17 +72,18 @@
 ## La carpeta "Tarea2_uart" contiene los archivos necesarios para correr el programa correspondiente al punto 4 de la Tarea 2, desde el software Visual Code Studio.
 #### En este punto, se implenta una función que imprime los cambios en la MEF antirrebote (qué tecla y en qué estado está la MEF), y los cambios en la MEF del controlador de semáforos (modo de funcionamiento). 
 #### La carpeta contiene los siguientes archivos:
-##### -main.ino: Necesario para comprobar el funcionamiento en Arduino.
-##### -teclas.cpp: Aquí se encuentran las funciones asociadas a la MEF del botón. (Funciones)
-##### -teclas.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías. (Prototipo de Funciones)
-##### -semaforo.cpp: Aquí se encuentran las funciones asociadas a la MEF del semáforo. (Funciones)
-##### -semaforo.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías. (Prototipo de Funciones)
-##### -uart.cpp: Aquí se encuentran las funciones asociadas al UART. (Funciones)
-##### -uart.h: Aquí se definen las funciones asociadas al UART, las variables, y las librerías. (Prototipo de Funciones)
+    -main.ino: Necesario para comprobar el funcionamiento en Arduino.
+    -teclas.cpp: Aquí se encuentran las funciones asociadas a la MEF del botón. (Funciones)
+    -teclas.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías. (Prototipo de Funciones)
+    -semaforo.cpp: Aquí se encuentran las funciones asociadas a la MEF del semáforo. (Funciones)
+    -semaforo.h: Aquí se definen las funciones asociadas a la MEF, las variables, y las librerías. (Prototipo de Funciones)
+    -uart.cpp: Aquí se encuentran las funciones asociadas al UART. (Funciones)
+    -uart.h: Aquí se definen las funciones asociadas al UART, las variables, y las librerías. (Prototipo de Funciones)
 #### Los pines que se deben conectar son los siguientes:
-##### -Boton 1: pin 5
-##### -Boton 2: pin 6
-##### -Led Verde: pin 2
-##### -Led Amarillo: pin 3
-##### -Led Rojo: pin 4
+    -Boton 1: pin 5
+    -Boton 2: pin 6
+    -Led Verde: pin 2
+    -Led Amarillo: pin 3
+    -Led Rojo: pin 4
+####
 #
